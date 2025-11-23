@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1763115112 source:c:\users\students\desktop\psipl_063_omkar\assignment_6\turn 2\assignment6_turn2_2\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-	<string.h>
-
