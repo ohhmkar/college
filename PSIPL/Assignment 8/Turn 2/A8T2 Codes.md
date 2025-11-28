@@ -1,3 +1,5 @@
+#Question 1
+```
 void backupSimulation(int n,char start,char end,char temp){  
     if(n==1){  
         printf("Move file 1 from Server %c to Server %c\\n",start,end);//Break condition is if n==1, that means only the first file is left to be transferred  
@@ -8,7 +10,10 @@ void backupSimulation(int n,char start,char end,char temp){
     printf("Move file %d from Server %c to Server %c\\n",n,start,end);  
     backupSimulation(n-1,temp,end,start);//Recursive call for next file  
 }
+```
 
+#Question 2
+```
 void reverseWord(char str\[\], int start, int end) {  
     if (start \>= end) return;
 
@@ -18,4 +23,5 @@ void reverseWord(char str\[\], int start, int end) {
 
     reverseString(str, start \+ 1, end \- 1);  
 }  
-\`\`\`  
+```
+  
