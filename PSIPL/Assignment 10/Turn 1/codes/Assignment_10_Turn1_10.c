@@ -33,8 +33,6 @@ int main()
     device.allFlags = 0; // Initialize all flags to 0 (all OFF)
 
     int temp; // Temporary variable to read user input
-
-    // Display student information header
     printf("\n2025300063 Omkar Anil Gajare\n\n");
 
     // Read Power Status from user
