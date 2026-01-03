@@ -29,7 +29,7 @@ This repo holds my assignments, submissions and supporting code from the academi
 
 <p align="center">
   <sub>
-  <a href = "https://github.com/ohhmkar>Omkar Gajare</a> • UID: 2025300063 • Last updated: 2026-01-04</sub>
+  <a href = "https://github.com/ohhmkar"> Omkar Gajare</a> • UID: 2025300063 • Last updated: 2026-01-04</sub>
 </p>
 
 ## Authors
