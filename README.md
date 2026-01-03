@@ -2,7 +2,9 @@
 
 #### Author - Omkar Anil Gajare UID - 2025300063
 
-> [!IMPORTANT] This is just an archive for my personal use, do not use any assignments or content preserved here for your own submission, **_Without my consent_**
+> [!IMPORTANT]
+> This is just an archive for my personal use
+> Do not use any assignments or content preserved here for your own submission, **_Without my consent_**
 
 - Subjects
   - [PSIPL](/PSIPL)
