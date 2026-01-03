@@ -9,7 +9,7 @@
 - Subjects
   - FY (25-26)
     - [Problem Solving using Imperative Programming Languages](/PSIPL)
-    - [PSOOPL](/PSOOPL)
+    - [Problem SOlving using Object Oriented Programming](/PSOOP)
     - [Tech Shop](/TS/)
 
 <p align="center">
