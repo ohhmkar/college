@@ -11,3 +11,7 @@
     - [Problem Solving using Imperative Programming Languages](/PSIPL)
     - [PSOOPL](/PSOOPL)
     - [Tech Shop](/TS/)
+
+<p align="center">
+  <sub>Author: Omkar Gajare • UID: 2025300063</sub>
+</p>
