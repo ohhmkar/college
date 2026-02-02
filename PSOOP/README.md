@@ -34,8 +34,9 @@ After completing this course you will be able to:
 
 ## Assignments
 
-| Sr  | Assignment | Turn 1 | Turn 2 |
-| :-: | :--------- | :----: | :----: |
+| Sr  | Assignment |                  Turn 1                   |                  Turn 2                   |
+| :-: | :--------: | :---------------------------------------: | :---------------------------------------: |
+|  1  |   Week 1   | [Folder](/PSOOP/Assignment%201/Turn%201/) | [Folder](/PSOOP/Assignment%201/Turn%202/) |
 
 ---
 

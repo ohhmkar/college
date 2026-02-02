@@ -13,6 +13,7 @@
   - [Problem Solving using Imperative Programming Languages (PSIPL)](/PSIPL)
   - [Problem Solving using Object Oriented Programming (PSOOP)](/PSOOP)
   - [Tech Shop (TS)](/TS)
+  - [Engineering Drawing(EG)](/EG)
 
 ---
 

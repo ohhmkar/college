@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ReciprocalSum
+comment0.text=\r\n\ This\ program\ prints\ the\ sum\ of\ the\ reciprocals\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 30-1-26\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

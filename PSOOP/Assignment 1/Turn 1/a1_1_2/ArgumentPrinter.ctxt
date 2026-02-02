@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ArgumentPrinter
+comment0.text=\r\n\ @brief\ Prints\ arguements\ from\ an\ args\ array\ of\ size\ 3.\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @date\ 28-1-26\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
