@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MilitaryTimeCalculator
+comment0.text=\r\n\ This\ program\ calculates\ the\ difference\ between\ two\ times\ entered\ in\ military\ time\ format\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 6/2/26\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

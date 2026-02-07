@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Coins
+comment0.text=\r\n\ This\ program\ takes\ input\ of\ different\ amount\ of\ coins\ and\ prints\ the\ value\ of\ the\ sum.\r\n\r\n\ @author\ Omkar\ Gajare\r\n\ @version\ 4/2/26\r\n\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
