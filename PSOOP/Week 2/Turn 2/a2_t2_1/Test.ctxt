@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Test
-comment0.text=\r\n\ This\ program\ prints\ the\ average\ of\ 2\ numbers,\ fixed\ from\ initial\ state\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 6/2/26\r\n
+comment0.text=\n\ This\ program\ prints\ the\ average\ of\ 2\ numbers,\ fixed\ from\ initial\ state\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 6/2/26\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

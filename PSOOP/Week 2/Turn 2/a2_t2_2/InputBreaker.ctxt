@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=InputBreaker
-comment0.text=\r\n\ This\ program\ splits\ the\ input\ into\ indiviual\ characters\ spaced\ out\r\n\r\n\ @author\ Omkar\ Gajare\r\n\ @version\ 6/2/26\r\n
+comment0.text=\n\ This\ program\ splits\ the\ input\ into\ indiviual\ characters\ spaced\ out\n\n\ @author\ Omkar\ Gajare\n\ @version\ 6/2/26\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

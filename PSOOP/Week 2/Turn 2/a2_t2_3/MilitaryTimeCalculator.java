@@ -27,8 +27,8 @@ public class MilitaryTimeCalculator
         no_of_mins = time2%100;//Stores number of minutes
         //System.out.println(no_of_mins);
         time2 = (no_of_hours*60)+no_of_mins;//Calculates total number of minutes taken to reach that time
-        
-        time_diff = time2-time1>0? time2-time1 : time2-time1+(24*60);//Calculates time difference between both, uses ternary to find if time1 is before time2 and adds 1440 to handle overnight
+        //Calculates time difference between both, uses ternary to find if time1 is before time2 and adds 1440 to handle overnight
+        time_diff = time2-time1>0? time2-time1 : time2-time1+(24*60);
         no_of_hours = time_diff/60;//Calculates hours in time difference
         no_of_mins = time_diff%60;//Calculates mins in time difference
         System.out.println("Time Difference is: "+no_of_hours+" hours "+no_of_mins+" minutes");//Prints the time difference
