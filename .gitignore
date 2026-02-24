@@ -12,7 +12,7 @@ ehthumbs.db
 Desktop.ini
 
 # Editor/IDE
-.vscode/
+.vscode
 .idea/
 *.sublime-workspace
 *.sublime-project

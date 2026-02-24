@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GameOfLife
+comment0.text=\n\ \n\ This\ program\ simulates\ the\ Game\ of\ Life\ where\:\n\ '@'\ -\ Living\ Organism\n\ '\#'\ -\ Dead\ Organism\n\ \n\ Rules\ are\ that\ if\ surrounded\ by\ less\ than\ or\ equal\ to\ 2\ and\ more\ than\ or\ equal\ to\ 4\ neighbours,\ cell\ dies\ else\ if\ cell\ has\ exactly\ 3\ then\ it\ will\ become\ alive.\n\ If\ 2\ or\ 3\ alive\ it\ stays\ alive\ next\ gen.\n\ \n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 21/2/26\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

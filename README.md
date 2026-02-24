@@ -13,7 +13,7 @@
   - [Problem Solving using Imperative Programming Languages (PSIPL)](/PSIPL)
   - [Problem Solving using Object Oriented Programming (PSOOP)](/PSOOP)
   - [Tech Shop (TS)](/TS)
-  - [Engineering Drawing(EG)](/EG)
+  - [Engineering Graphics(EG)](/EG)
 
 ---
 
@@ -30,5 +30,5 @@ This repo holds my assignments, submissions and supporting code from the academi
 
 <p align="center">
   <sub>
-  <a href = "https://github.com/ohhmkar"> Omkar Gajare</a> • UID: 2025300063 • Last updated: 07-02-2026</sub>
+  <a href = "https://github.com/ohhmkar"> Omkar Gajare</a> • UID: 2025300063 • Last updated: 20-02-2026</sub>
 </p>
