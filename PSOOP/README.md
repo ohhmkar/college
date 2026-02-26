@@ -38,6 +38,9 @@ After completing this course you will be able to:
 | :-: | :--------: | :---------------------------------: | :---------------------------------: |
 |  1  |   Week 1   | [Folder](/PSOOP/Week%201/Turn%201/) | [Folder](/PSOOP/Week%201/Turn%202/) |
 |  2  |   Week 2   | [Folder](/PSOOP/Week%202/Turn%201/) | [Folder](/PSOOP/Week%202/Turn%202/) |
+|  3  |   Week 3   | [Folder](/PSOOP/Week%203/Turn%201/) | [Folder](/PSOOP/Week%203/Turn%202/) |
+|  4  |   Week 4   | [Folder](/PSOOP/Week%204/Turn%201/) | [Folder](/PSOOP/Week%204/Turn%202/) |
+|  5  |   Week 5   | [Folder](/PSOOP/Week%205/Turn%201/) | [Folder](/PSOOP/Week%205/Turn%202/) |
 
 ---
 
