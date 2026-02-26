@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=StudentManagement
+comment0.text=\r\n\ This\ program\ handles\ the\ data\ of\ 2\ students\ and\ calculating\ their\ result\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 25/2/26\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
