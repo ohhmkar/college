@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Vehicle
+comment0.text=\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 6/3/26\n
+comment1.params=cost
+comment1.target=void\ addService(double)
+comment1.text=\n\ Set\ the\ service\ cost\ for\ this\ vehicle.\n\ \n\ @param\ cost\ new\ service\ cost\n
+comment2.params=cost\ serviceType
+comment2.target=void\ addService(double,\ java.lang.String)
+comment2.text=\n\ Set\ the\ service\ cost\ and\ record\ a\ service\ type\ (printed\ to\ stdout).\n\ \n\ @param\ cost\ \ \ \ \ \ \ \ new\ service\ cost\n\ @param\ serviceType\ description\ of\ the\ service\ performed\n
+comment3.params=
+comment3.target=void\ displayVehicleDetails()
+comment3.text=\n\ Print\ the\ vehicle's\ service\ details\ to\ standard\ output.\n
+comment4.params=name
+comment4.target=void\ changeServiceCenter(java.lang.String)
+comment4.text=\n\ Change\ the\ shared\ service\ center\ name\ used\ by\ all\ Vehicle\ instances.\n\ \n\ @param\ name\ new\ service\ center\ name\n
+numComments=5

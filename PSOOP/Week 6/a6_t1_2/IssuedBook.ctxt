@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IssuedBook
+comment0.text=\n\ An\ issued\ book\ extends\ `Book`\ and\ adds\ behaviors\ related\ to\ fines.\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 6/3/26\n
+comment1.params=bookId\ title
+comment1.target=IssuedBook(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\n\n\ @param\ bookId\ book\ identifier\n\ @param\ title\ \ book\ title\n
+comment2.params=
+comment2.target=void\ calculateFine()
+comment2.text=\n\ Calculate\ and\ print\ the\ fine\ based\ on\ how\ many\ days\ the\ book\ was\ issued.\n\ Reference\ books\ are\ fined\ at\ Rs.\ 2/day\ over\ the\ limit;\ other\ books\ Rs.\ 5/day.\n
+numComments=3

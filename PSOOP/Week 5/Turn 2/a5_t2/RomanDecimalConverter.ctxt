@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=RomanDecimalConverter
+comment0.text=\r\n\ A\ class\ that\ converts\ a\ number\ in\ roman\ representation\ to\ a\ decimal\ representation\ and\ vice\ versa\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 27/2/26\r\n
+comment1.params=n
+comment1.target=RomanDecimalConverter(int)
+comment2.params=r
+comment2.target=RomanDecimalConverter(java.lang.String)
+comment3.params=nextChar\ a\ b
+comment3.target=int\ checkVal(char,\ char,\ char)
+comment3.text=\r\n\ Helper\ function\ to\ check\ if\ nextChar\ is\ either\ a\ or\ b\r\n\ Param\:\ nextChar\ ->\ char\r\n\ \ \ \ \ \ \ \ a\ ->\ char\r\n\ \ \ \ \ \ \ \ b\ ->\ char\r\n\ Returns\:\ -1\ if\ true\ else\ 1\r\n
+comment4.params=decimal
+comment4.target=java.lang.String\ convertValue(int)
+comment4.text=\r\n\ Function\ that\ converts\ decimal\ representation\ to\ roman\ representation\r\n\ Param\:\ decimal\ ->\ int\r\n\ Returns\:\ Number\ in\ roman\ representation\ \r\n
+comment5.params=roman
+comment5.target=int\ convertValue(java.lang.String)
+comment5.text=\r\n\ Function\ that\ converts\ roman\ representation\ to\ decimal\ representation\r\n\ Param\:\ roman\ ->\ String\r\n\ Returns\:\ Number\ in\ decimal\ representation\ \r\n
+numComments=6
