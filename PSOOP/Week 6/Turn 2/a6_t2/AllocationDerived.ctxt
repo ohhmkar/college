@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=AllocationDerived
+comment1.params=students\ numStudents
+comment1.target=AllocationDerived(Student[],\ int)
+comment1.text=Constructor
+comment2.params=name
+comment2.target=StreamBase\ findStream(java.lang.String)
+comment2.text=\n\ Searches\ the\ inherited\ allStreams\ pool\ for\ a\ stream\ by\ name.\n\ \n\ @param\ name\ Name\ of\ the\ stream\ to\ find\n\ @return\ Reference\ to\ the\ matching\ StreamBase,\ or\ null\ if\ not\ found\n
+comment3.params=
+comment3.target=Student[]\ sortByScoreDesc()
+comment3.text=\n\ Returns\ a\ copy\ of\ the\ students\ array\ sorted\ by\ score\ descending\ using\ bubble\n\ sort.\n\ The\ original\ array\ is\ kept\ intact\ to\ preserve\ input\ order\ for\ final\ output.\n\ \n\ @return\ New\ array\ of\ students\ sorted\ highest\ score\ first\n
+comment4.params=student
+comment4.target=void\ allocate(Student)
+comment4.text=\n\ Allocates\ a\ stream\ to\ a\ single\ student\ by\ trying\ each\ preference\ in\ order.\n\ Assigns\ the\ first\ preference\ that\ has\ a\ seat\ available.\n\ \n\ @param\ student\ The\ student\ for\ whom\ allocation\ is\ attempted\n
+comment5.params=
+comment5.target=void\ allocate()
+comment5.text=\n\ Batch-allocates\ streams\ to\ all\ students\ in\ score-descending\ order,\n\ then\ prints\ results\ in\ the\ original\ input\ order.\n
+numComments=6

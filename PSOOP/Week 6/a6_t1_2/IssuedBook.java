@@ -36,4 +36,5 @@ class IssuedBook extends Book {
     }
     System.out.println("Fine Amount    : Rs. " + this.fine);
   }
+
 }
