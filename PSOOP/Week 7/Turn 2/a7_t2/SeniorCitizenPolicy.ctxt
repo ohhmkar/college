@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SeniorCitizenPolicy
+comment0.text=\r\n\ SeniorCitizen\ Policy\ \r\n\ \r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 25/3/26\r\n\ \r\n\ Parameterized\ constructor\r\n\ @param\ String\ policyID\ stores\ policy\ ID\r\n\ @param\ String\ policyHolderName\ stores\ policy\ holders\ name\r\n\ \r\n\ calculatePremium\ Calculates\ Premium\r\n\ @returns\ premium\ \r\n\ \r\n
+comment1.params=policyId\ policyHolderName
+comment1.target=SeniorCitizenPolicy(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=double\ calculatePremium()
+numComments=3

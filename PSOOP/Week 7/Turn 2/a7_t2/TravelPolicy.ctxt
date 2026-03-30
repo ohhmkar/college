@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TravelPolicy
+comment0.text=\r\n\ Travel\ Policy\ \r\n\ \r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 25/3/26\r\n\ \r\n\ Parameterized\ constructor\r\n\ @param\ String\ policyID\ stores\ policy\ ID\r\n\ @param\ String\ policyHolderName\ stores\ policy\ holders\ name\r\n\ \r\n\ calculatePremium\ Calculates\ Premium\r\n\ @returns\ premium\ which\ is\ Base\ +\ international\ travel\ fee\r\n\ \r\n
+comment1.params=policyId\ policyHolderName
+comment1.target=TravelPolicy(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=double\ calculatePremium()
+numComments=3

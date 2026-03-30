@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ProgrammingCourse
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ManagementCourse\ here.\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 27/3/26\r\n
+comment1.params=courseCode\ instructor\ durationInWeeks\ score
+comment1.target=ProgrammingCourse(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=score
+comment2.target=void\ evaluateStudent(int)
+comment3.params=
+comment3.target=java.lang.String\ courseOutcome()
+comment4.params=
+comment4.target=void\ conductLiveSession()
+comment5.params=score
+comment5.target=boolean\ issueCertificate(int)
+numComments=6

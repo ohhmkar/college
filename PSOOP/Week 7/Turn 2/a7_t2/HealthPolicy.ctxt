@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HealthPolicy
+comment0.text=\r\n\ HealthPolicy\ Class\ serves\ as\ template\ for\ SeniorCitizen\ as\ well\ as\ a\ standalone\ policy\ \r\n\ \r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 25/3/26\r\n\ \r\n\ Parameterized\ constructor\r\n\ @param\ String\ policyID\ stores\ policy\ ID\r\n\ @param\ String\ policyHolderName\ stores\ policy\ holders\ name\r\n\ @param\ boolean\ isSenior\ flag\ for\ if\ the\ policy\ is\ for\ seniors\ or\ not\r\n\ \r\n\ \r\n\ calculatePremium\ Calculates\ Premium\r\n\ @returns\ BASE_PREMIUM+hospitalCoverageCost\r\n\ \r\n
+comment1.params=policyId\ policyHolderName\ isSenior
+comment1.target=HealthPolicy(java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=
+comment2.target=double\ calculatePremium()
+numComments=3

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=WeldingMachine
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CuttingMachine\ here.\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 26/3/26\r\n
+comment1.params=machineID\ manufacturer\ operatingHours
+comment1.target=WeldingMachine(int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ performOperation()
+comment3.params=
+comment3.target=void\ sendStatus()
+comment4.params=
+comment4.target=double\ calculateMaintenanceCost()
+comment5.params=
+comment5.target=double\ calculateEnergyUsage()
+numComments=6

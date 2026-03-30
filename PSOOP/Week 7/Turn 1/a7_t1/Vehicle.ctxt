@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Vehicle
+comment0.text=\r\n\ Base\ Class\ Vehicle\r\n\ Basic\ outline\ for\ specfic\ vehicle\ classes,\ acts\ as\ a\ template\r\n
+comment1.params=vehicleType\ regNumber
+comment1.target=Vehicle(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Parameterized\ Constructor\ \r\n\ @param\ vehicleType\ Stores\ vehicle\ type\r\n\ @param\ regNumber\ Stores\ registration\ number\r\n
+comment2.params=
+comment2.target=void\ displayVehicleType()
+comment2.text=\r\n\ Function\ to\ display\ vehicle\ type\r\n\ Unparameterized\ but\ uses\ vehicleType\ variable\ in\ class\ to\ print\ vehicleType\r\n
+comment3.params=
+comment3.target=double\ calculateParkingFee()
+comment3.text=\r\n\ Function\ to\ return\ calculate\ Parking\ Fee,\ returns\ Base\ Parking\ Fee\ for\ now\ \r\n\ @returns\ parking\ fee\r\n
+numComments=4
