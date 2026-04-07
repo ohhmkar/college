@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Customer
+comment0.text=\n\ Stores\ customer\ account\ details\ and\ provides\ interest\ calculations.\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 1/4/26\n
+comment1.params=
+comment1.target=Customer()
+comment1.text=Creates\ an\ empty\ customer\ record.
+comment2.params=acHolder\ acType\ interestRate\ balance
+comment2.target=Customer(java.lang.String,\ java.lang.String,\ float,\ float)
+comment2.text=Creates\ a\ customer\ with\ account\ metadata\ and\ starting\ balance\ values.
+comment3.params=
+comment3.target=float\ getSimpleInterest()
+comment4.params=
+comment4.target=float\ getCompoundInterest()
+numComments=5

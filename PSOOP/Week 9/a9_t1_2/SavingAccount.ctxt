@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SavingAccount
+comment0.text=\n\ Declares\ simple-interest\ behavior\ for\ savings\ account\ types.\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 1/4/26\n
+comment1.params=
+comment1.target=float\ getSimpleInterest()
+comment1.text=Returns\ simple\ interest\ for\ the\ current\ account\ state.
+numComments=2

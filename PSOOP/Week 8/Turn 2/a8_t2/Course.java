@@ -5,6 +5,7 @@
  * @version 27/3/26
  */
 abstract class Course{
+  // Common properties shared by all course types.
     protected String courseCode;
     protected String instructor;
     protected int durationInWeeks;
@@ -18,10 +19,12 @@ abstract class Course{
         this.courseType = courseType;
     }
 
+    // Subclasses define their own evaluation, outcome, and session behavior.
     abstract void evaluateStudent(int score);
     abstract String courseOutcome();
 
     final void displayCourseDetails(){
+      // Final keeps display format consistent across subclasses.
       System.out.println("Course Code: "+ courseCode);
       System.out.println("Instructor: "+ instructor);
       System.out.println("Duration (Weeks): "+ durationInWeeks);

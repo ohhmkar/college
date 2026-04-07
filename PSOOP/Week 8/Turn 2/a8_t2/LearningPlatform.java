@@ -9,10 +9,12 @@ import java.util.*;
 public class LearningPlatform
 {
     public static void main(String args[]) throws IOException{
+        // Reads text input for a simple console-driven report.
         DataInputStream in = new DataInputStream(System.in);
         System.out.println("Enter number of courses: ");
         int noOfCourses = Integer.parseInt(in.readLine());
 
+        // Polymorphism lets one Course[] hold both course types.
         Course[] courseNo = new Course[noOfCourses];
         int courseType;
         int[] scores = new int[noOfCourses];
@@ -35,6 +37,7 @@ public class LearningPlatform
             System.out.print("Student Score: ");
             scores[i] = Integer.parseInt(in.readLine());
 
+                        // The chosen input decides which subclass object is created.
             if(courseType == 1){
               courseNo[i] = new ProgrammingCourse(courseCode, instructor, durationInWeeks,scores[i]);
             }else{
@@ -44,7 +47,9 @@ public class LearningPlatform
         }
         System.out.println("==== COURSE REPORT ====");
         for(int i=0;i<noOfCourses;i++){
+            // The base reference is used first, then behavior changes by actual object type.
             courseNo[i].displayCourseDetails();
+            // Runtime type checks decide which subclass-specific methods to call.
             if(courseNo[i] instanceof ProgrammingCourse){
                 ((ProgrammingCourse)courseNo[i]).evaluateStudent(scores[i]);
                 ((ProgrammingCourse)courseNo[i]).conductLiveSession();
@@ -57,6 +62,7 @@ public class LearningPlatform
                 System.out.println("Outcome: " + ((ManagementCourse)courseNo[i]).courseOutcome());
                 System.out.println("Certificate Issued: "+ (((ManagementCourse)courseNo[i]).issueCertificate(scores[i])));
             }
+            // Separator improves readability for each course report block.
             System.out.println("----------------------------");
         }
     }

@@ -1,33 +1,40 @@
-
 /**
- * Write a description of class CuttingMachine here.
+ * Defines methods from interfaces it extends
  *
  * @author Omkar Anil Gajare
  * @version 26/3/26
  */
-class WeldingMachine extends Machine implements RemoteMonitor, EnergyConsumer
-{
+class WeldingMachine extends Machine implements RemoteMonitor, EnergyConsumer {
+    // Per-hour cost constants for welding machines.
     final double maintenanceCost = 18;
     final double energyCost = 5.5;
 
-    WeldingMachine(int machineID, String manufacturer, int operatingHours){
+    // Inherits shared state from Machine and fulfills both interface contracts.
+    WeldingMachine(int machineID, String manufacturer, int operatingHours) {
         super(machineID, manufacturer, operatingHours);
     }
 
-    void performOperation(){
+    @Override
+    // Required concrete version of Machine.performOperation().
+    void performOperation() {
         System.out.println("Welding operation in progress");
     }
 
-    public void sendStatus(){
+    @Override
+    public void sendStatus() {
         System.out.println("Welding Machine Status: ACTIVE");
     }
 
-    double calculateMaintenanceCost(){
-        return maintenanceCost*operatingHours;
+    @Override
+    // Formula based on operating hour multiplier.
+    double calculateMaintenanceCost() {
+        return maintenanceCost * operatingHours;
     }
 
-    public double calculateEnergyUsage(){
-        return energyCost*operatingHours;
+    @Override
+    // Interface method from EnergyConsumer.
+    public double calculateEnergyUsage() {
+        return energyCost * operatingHours;
     }
 
 }

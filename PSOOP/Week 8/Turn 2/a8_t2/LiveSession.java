@@ -5,5 +5,6 @@
  * @version 27/3/26
  */
 interface LiveSession{
+    // Implementing courses must provide a live interaction session.
     void conductLiveSession();
 }

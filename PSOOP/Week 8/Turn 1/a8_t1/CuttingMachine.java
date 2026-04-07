@@ -1,33 +1,40 @@
-
 /**
- * Write a description of class CuttingMachine here.
+ * Class that makes methods defined in interfaces concrete
  *
  * @author Omkar Anil Gajare
  * @version 26/3/26
  */
-class CuttingMachine extends Machine implements RemoteMonitor, EnergyConsumer
-{
+class CuttingMachine extends Machine implements RemoteMonitor, EnergyConsumer {
+    // Per-hour cost constants for this machine type.
     final double maintenanceCost = 15.5;
     final double energyCost = 4.2;
 
-    CuttingMachine(int machineID, String manufacturer, int operatingHours){
+    // extends Machine: reuses common machine fields through super(...).
+    // implements interfaces: must provide sendStatus() and calculateEnergyUsage().
+    CuttingMachine(int machineID, String manufacturer, int operatingHours) {
         super(machineID, manufacturer, operatingHours);
     }
 
-    void performOperation(){
+    @Override
+    // Concrete implementation of the abstract operation hook from Machine.
+    void performOperation() {
         System.out.println("Cutting operation in progress");
     }
-    
-    public void sendStatus(){
+
+    @Override
+    public void sendStatus() {
         System.out.println("Cutting Machine Status: ACTIVE");
     }
 
-    double calculateMaintenanceCost(){
-        return maintenanceCost*operatingHours;
+    @Override
+    // Maintenance is proportional to total operating hours.
+    double calculateMaintenanceCost() {
+        return maintenanceCost * operatingHours;
     }
 
-    public double calculateEnergyUsage(){
-        return energyCost*operatingHours;
+    @Override
+    // Energy usage is also modeled linearly with operating hours.
+    public double calculateEnergyUsage() {
+        return energyCost * operatingHours;
     }
-
 }

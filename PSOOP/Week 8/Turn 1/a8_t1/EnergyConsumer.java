@@ -1,11 +1,9 @@
-
 /**
- * Write a description of class EnergyConsumer here.
  *
  * @author Omkar Anil Gajare
  * @version 26/3/26
  */
-interface EnergyConsumer
-{
+interface EnergyConsumer {
+  // Interface contract: implementing classes expose energy usage calculation.
   double calculateEnergyUsage();
 }

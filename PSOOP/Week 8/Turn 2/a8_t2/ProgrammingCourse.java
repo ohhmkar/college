@@ -5,11 +5,14 @@
  * @version 27/3/26
  */
 class ProgrammingCourse extends Course implements LiveSession, Certification{
+    // Stores the student's programming assessment score.
     public int score;
+    // Tracks whether the student met the passing requirement.
     protected boolean pass = false;
 
     ProgrammingCourse(String courseCode, String instructor, int durationInWeeks, int score){
         super(courseCode, instructor, durationInWeeks, "ProgrammingCourse");
+        // Programming courses require 60 to pass
         pass = (score>=60)? true : false;
     }
     
@@ -21,6 +24,7 @@ class ProgrammingCourse extends Course implements LiveSession, Certification{
     
     @Override
     String courseOutcome(){
+        // Outcome is based on whether the student passed the course.
         if(pass){
             return "Practical coding skills gained";
         }
@@ -36,6 +40,7 @@ class ProgrammingCourse extends Course implements LiveSession, Certification{
     
     @Override
     public boolean issueCertificate(int score){
+        // Certificate is issued only when score is 60 or above.
         return (score>=60)? true: false;
     }
 }
