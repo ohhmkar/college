@@ -79,4 +79,7 @@ build/
 coverage/
 coverage.xml
 .vagrant/
+
+# Generated docs (Javadoc) in PSOOP submissions
+PSOOP/**/doc/
 ```

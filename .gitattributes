@@ -1,3 +1,5 @@
+# Exclude generated Javadoc assets from GitHub language statistics
+PSOOP/**/doc/** linguist-generated=true
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.doc filter=lfs diff=lfs merge=lfs -text
