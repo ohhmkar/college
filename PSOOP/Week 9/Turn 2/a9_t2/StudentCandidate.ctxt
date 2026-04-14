@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=StudentCandidate
+comment0.text=\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 8/4/26\n\n\n
+comment1.params=
+comment1.target=void\ readStudentId()
+comment1.text=Read\ User\ Input\ Methods
+comment2.params=
+comment2.target=void\ readMarks()
+comment3.params=
+comment3.target=void\ readAttendance()
+comment4.params=
+comment4.target=void\ readStudentDetails()
+comment5.params=
+comment5.target=boolean\ isAttendanceEligible()
+comment5.text=Eligibility\ Checks
+comment6.params=
+comment6.target=boolean\ isMarksEligible()
+comment7.params=
+comment7.target=boolean\ checkEligibility()
+comment8.params=
+comment8.target=void\ calculateGrade()
+comment8.text=Grade\ Calculation\ Logic
+comment9.params=
+comment9.target=void\ displayResult()
+numComments=10
