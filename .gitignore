@@ -35,6 +35,7 @@ pip-selfcheck.json
 *.jar
 *.war
 *.ear
+*.ctxt
 target/
 out/
 
