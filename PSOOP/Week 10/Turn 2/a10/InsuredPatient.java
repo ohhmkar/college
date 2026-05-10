@@ -63,11 +63,8 @@ public class InsuredPatient extends EmergencyPatient implements InsuranceService
     @Override
     public boolean isValidNumeric(Double val) {
         // Compare to total to ensure the patient does not end up owing negative
-        if ((val < 0) && (getInsuranceCoverage() > (getConsultationCharges() + getDiagnosticCharges()
-                + getEmergencyServiceCharges()))) {
-            return false;
-        }
-        return true;
+        return (val >= 0) || (!(getInsuranceCoverage() > (getConsultationCharges() + getDiagnosticCharges()
+                + getEmergencyServiceCharges())));
     }
 
     /**

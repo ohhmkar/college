@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ATMTeller {
-    public static void main(String args[]){
+    public static void main(String[] args){
         try(Scanner in = new Scanner(System.in)){
             System.out.print("No of Accounts: ");
             int n = Integer.parseInt(in.nextLine().trim());
