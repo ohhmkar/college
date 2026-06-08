@@ -14,7 +14,7 @@
   - [PSOOP — Problem Solving using Object Oriented Programming](/FY%20(2025-26)/PSOOP)
   - [EG — Engineering Graphics](/FY%20(2025-26)/EG)
   - [TS — Tech Shop](/FY%20(2025-26)/TS)
-- SY (2026-27) — _coming Sem III_
+- [SY (2026-27)](/SY%20(2026-27)/) — Sem III & IV _(skeleton ready)_
 - TY (2027-28) — _coming Sem V_
 - BE (2028-29) — _coming Sem VII_
 
