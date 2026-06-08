@@ -36,16 +36,16 @@ After completing this course you will be able to:
 
 | Sr  | Assignment |               Turn 1                |               Turn 2                |
 | :-: | :--------: | :---------------------------------: | :---------------------------------: |
-|  1  |   Week 1   | [Folder](/PSOOP/Week%201/Turn%201/) | [Folder](/PSOOP/Week%201/Turn%202/) |
-|  2  |   Week 2   | [Folder](/PSOOP/Week%202/Turn%201/) | [Folder](/PSOOP/Week%202/Turn%202/) |
-|  3  |   Week 3   | [Folder](/PSOOP/Week%203/Turn%201/) | [Folder](/PSOOP/Week%203/Turn%202/) |
-|  4  |   Week 4   | [Folder](/PSOOP/Week%204/Turn%201/) | [Folder](/PSOOP/Week%204/Turn%202/) |
-|  5  |   Week 5   | [Folder](/PSOOP/Week%205/Turn%201/) | [Folder](/PSOOP/Week%205/Turn%202/) |
-|  6  |   Week 6   | [Folder](/PSOOP/Week%206/) | [Folder](/PSOOP/Week%206/Turn%202/) |
-|  7  |   Week 7   | [Folder](/PSOOP/Week%207/Turn%201/) | [Folder](/PSOOP/Week%207/Turn%202/) |
-|  8  |   Week 8   | [Folder](/PSOOP/Week%208/Turn%201/) | [Folder](/PSOOP/Week%208/Turn%202/) |
-|  9  |   Week 9   | [Folder](/PSOOP/Week%209/Turn%201/) | [Folder](/PSOOP/Week%209/Turn%202/) |
-| 10  |  Week 10   | [Folder](/PSOOP/Week%2010/Turn%201/) | [Folder](/PSOOP/Week%2010/Turn%202/) |
+|  1  |   Week 1   | [Folder](./Week%201/Turn%201/) | [Folder](./Week%201/Turn%202/) |
+|  2  |   Week 2   | [Folder](./Week%202/Turn%201/) | [Folder](./Week%202/Turn%202/) |
+|  3  |   Week 3   | [Folder](./Week%203/Turn%201/) | [Folder](./Week%203/Turn%202/) |
+|  4  |   Week 4   | [Folder](./Week%204/Turn%201/) | [Folder](./Week%204/Turn%202/) |
+|  5  |   Week 5   | [Folder](./Week%205/Turn%201/) | [Folder](./Week%205/Turn%202/) |
+|  6  |   Week 6   | [Folder](./Week%206/) | [Folder](./Week%206/Turn%202/) |
+|  7  |   Week 7   | [Folder](./Week%207/Turn%201/) | [Folder](./Week%207/Turn%202/) |
+|  8  |   Week 8   | [Folder](./Week%208/Turn%201/) | [Folder](./Week%208/Turn%202/) |
+|  9  |   Week 9   | [Folder](./Week%209/Turn%201/) | [Folder](./Week%209/Turn%202/) |
+| 10  |  Week 10   | [Folder](./Week%2010/Turn%201/) | [Folder](./Week%2010/Turn%202/) |
 
 ---
 
