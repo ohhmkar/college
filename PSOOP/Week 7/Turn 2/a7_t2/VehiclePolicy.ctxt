@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=VehiclePolicy
-comment0.text=\n\ Vehicle\ Policy\ \n\ \n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 25/3/26\n\ \n\ Parameterized\ constructor\n\ @param\ String\ policyID\ stores\ policy\ ID\n\ @param\ String\ policyHolderName\ stores\ policy\ holders\ name\n\ \n\ calculatePremium\ Calculates\ Premium\n\ @returns\ premium\ which\ is\ Base\ +\ vehicle\ risk\ surcharge\n\ \n
-comment1.params=policyId\ policyHolderName
-comment1.target=VehiclePolicy(java.lang.String,\ java.lang.String)
-comment2.params=
-comment2.target=double\ calculatePremium()
-numComments=3

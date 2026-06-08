@@ -1,6 +1,3 @@
-# .gitignore (suggested for college project repos)
-
-```gitignore
 # macOS
 .DS_Store
 .AppleDouble
@@ -47,20 +44,17 @@ yarn-error.log*
 dist/
 build/
 
-# Go/Rust/C/C++
-/bin/
-/pkg/
-/target/
+# C/C++ build artifacts
 *.o
 *.obj
 *.exe
 *.dll
 *.so
 *.out
+obj/
+bin/
 
 # Build / distribution
-dist/
-build/
 *.egg-info/
 .eggs/
 
@@ -83,4 +77,3 @@ coverage.xml
 
 # Generated docs (Javadoc) in PSOOP submissions
 PSOOP/**/doc/
-```

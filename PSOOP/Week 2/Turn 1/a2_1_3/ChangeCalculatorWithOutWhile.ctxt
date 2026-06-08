@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=ChangeCalculatorWithOutWhile
-comment0.text=\n\ Takes\ input\ of\ amount\ due\ and\ amount\ recieved\ and\ prints\ the\ change\ and\ its\ divisions\ in\ coins.\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 4/2/26\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2

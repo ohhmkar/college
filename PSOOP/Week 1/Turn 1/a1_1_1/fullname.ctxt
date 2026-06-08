@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=fullname
-comment0.text=\r\n\ @brief\ Prints\ my\ first\ name\ ,middle\ name\ and\ last\ name.\r\n\ @author\ Omkar\ Gajare\r\n\ @date\ 28-1-26\r\n\ @\r\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2

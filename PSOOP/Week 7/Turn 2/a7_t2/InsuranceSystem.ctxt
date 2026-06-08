@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=InsuranceSystem
-comment0.text=\n\ A\ basic\ Insurance\ System\ that\ definies\ policies,\ uses\ runtime\ polymorphism\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 25/3/26\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2

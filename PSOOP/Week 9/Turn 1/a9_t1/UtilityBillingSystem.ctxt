@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=UtilityBillingSystem
-comment0.text=\n\ Drives\ utility\ bill\ input,\ calculation,\ and\ final\ display\ for\ one\ consumer.\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 1/4/26\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment1.text=Runs\ the\ complete\ utility\ billing\ workflow\ from\ input\ to\ output.
-numComments=2

@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=FuelVehicle
-comment1.params=vehicleType\ regNumber
-comment1.target=FuelVehicle(java.lang.String,\ java.lang.String)
-comment1.text=\r\n\ Parameterized\ Constructor\ \r\n\ @param\ vehicleType\ Stores\ vehicle\ type\r\n\ @param\ regNumber\ Stores\ registration\ number\r\n
-comment2.params=
-comment2.target=double\ calculateParkingFee()
-comment2.text=\r\n\ Function\ to\ return\ calculate\ Parking\ Fee,\ returns\ Base\ parking\ fee\ +\ surcharge\r\n\ @returns\ parking\ fee\r\n
-numComments=3

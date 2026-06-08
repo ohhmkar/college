@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=CurrentAccount
-comment0.text=\ \n\ Declares\ compound-interest\ behavior\ for\ current\ account\ types.\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 1/4/26\n
-comment1.params=
-comment1.target=float\ getCompoundInterest()
-comment1.text=Returns\ compound\ amount\ for\ the\ current\ account\ state.
-numComments=2

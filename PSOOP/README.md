@@ -1,4 +1,4 @@
-# Program Solving using Imperative Programming Languages (PSOOP)
+# Problem Solving using Object Oriented Programming (PSOOP)
 
 > **Course:** CE102 — Problem Solving using Object Oriented Programming
 
@@ -19,7 +19,7 @@ To develop problem-solving skills using object oriented programming paradigms (J
 
 - Problem analysis and algorithm design
 - Implementation using control structures, arrays, text processing
-- Modular program design using functions and structures
+- Apply OOP design principles — encapsulation, inheritance, polymorphism, abstraction
 
 ## Learning Outcomes
 
@@ -41,6 +41,11 @@ After completing this course you will be able to:
 |  3  |   Week 3   | [Folder](/PSOOP/Week%203/Turn%201/) | [Folder](/PSOOP/Week%203/Turn%202/) |
 |  4  |   Week 4   | [Folder](/PSOOP/Week%204/Turn%201/) | [Folder](/PSOOP/Week%204/Turn%202/) |
 |  5  |   Week 5   | [Folder](/PSOOP/Week%205/Turn%201/) | [Folder](/PSOOP/Week%205/Turn%202/) |
+|  6  |   Week 6   | [Folder](/PSOOP/Week%206/) | [Folder](/PSOOP/Week%206/Turn%202/) |
+|  7  |   Week 7   | [Folder](/PSOOP/Week%207/Turn%201/) | [Folder](/PSOOP/Week%207/Turn%202/) |
+|  8  |   Week 8   | [Folder](/PSOOP/Week%208/Turn%201/) | [Folder](/PSOOP/Week%208/Turn%202/) |
+|  9  |   Week 9   | [Folder](/PSOOP/Week%209/Turn%201/) | [Folder](/PSOOP/Week%209/Turn%202/) |
+| 10  |  Week 10   | [Folder](/PSOOP/Week%2010/Turn%201/) | [Folder](/PSOOP/Week%2010/Turn%202/) |
 
 ---
 

@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=CourseEvaluation
-comment0.text=\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 8/4/26\n\n
-comment1.params=
-comment1.target=void\ readMarks()
-comment2.params=
-comment2.target=void\ calculateGrade()
-numComments=3

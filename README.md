@@ -30,5 +30,5 @@ This repo holds my assignments, submissions and supporting code from the academi
 
 <p align="center">
   <sub>
-  <a href = "https://github.com/ohhmkar"> Omkar Gajare</a> • UID: 2025300063 • Last updated: 20-02-2026</sub>
+  <a href = "https://github.com/ohhmkar"> Omkar Gajare</a> • UID: 2025300063 • Last updated: 08-06-2026</sub>
 </p>

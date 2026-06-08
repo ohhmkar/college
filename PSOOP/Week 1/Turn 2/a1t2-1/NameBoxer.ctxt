@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=NameBoxer
-comment0.text=\r\n\ This\ program\ prints\ my\ name\ in\ a\ box\ pointed\ to\ it\ by\ an\ arrow\r\n\r\n\ @author\ Omkar\ Anil\ Gajare\r\n\ @version\ 30-1-26\r\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2

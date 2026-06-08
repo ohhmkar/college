@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=UtilityBill
-comment0.text=\n\ Combines\ utility\ interfaces\ and\ exposes\ total\ bill\ display\ behavior.\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 1/4/26\n
-comment1.params=
-comment1.target=void\ displayTotalBill()
-comment1.text=Displays\ the\ combined\ utility\ bill\ summary.
-numComments=2

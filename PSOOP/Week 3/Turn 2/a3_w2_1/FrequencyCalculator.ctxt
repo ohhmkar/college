@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=FrequencyCalculator
-comment0.text=\r\n\ This\ program\ calculates\ the\ frequency\ at\ different\ values\ of\ C\ when\ inductance\ and\ resistance\ is\ given\r\n\r\n\ @author\ Omkar\ Gajare\r\n\ @version\ 13/2/26\r\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2

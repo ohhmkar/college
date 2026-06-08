@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=StreamBase
-comment0.text=\n\ Base\ class\ that\ holds\ all\ stream\ data\ and\ contains\n\ the\ inner\ Student\ class\ for\ representing\ candidate\ data.\n
-comment1.params=name\ seats
-comment1.target=StreamBase(java.lang.String,\ int)
-comment2.params=streams\ count
-comment2.target=void\ setStreams(StreamBase[],\ int)
-comment2.text=\n\ Makes\ a\ seat\ pool\ that\ can\ be\ accessed\ and\ allotted\ from\n\ \n\ @param\ streams\ Array\ of\ all\ streams\n\ @param\ count\ \ \ Number\ of\ streams\ in\ the\ array\n
-numComments=3

@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Certification
-comment0.text=\n\ Write\ a\ description\ of\ class\ ManagementCourse\ here.\n\n\ @author\ Omkar\ Anil\ Gajare\n\ @version\ 27/3/26\n
-comment1.params=score
-comment1.target=boolean\ issueCertificate(int)
-numComments=2
