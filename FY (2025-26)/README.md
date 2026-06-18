@@ -9,8 +9,8 @@
 | Sem | Code  | Subject | Folder |
 | :-: | :---: | :------ | :----: |
 | I   | CE101 | Problem Solving using Imperative Programming Languages | [PSIPL](./PSIPL/) |
-| I   | AS105 | Engineering Graphics | [EG](./EG/) |
-| I/II | AS106 | Tech Shop | [TS](./TS/) |
+| II   | AS105 | Engineering Graphics | [EG](./EG/) |
+| I | AS106 | Tech Shop | [TS](./TS/) |
 | II  | CE102 | Problem Solving using Object Oriented Programming | [PSOOP](./PSOOP/) |
 
 ---
