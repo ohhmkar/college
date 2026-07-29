@@ -1,0 +1,418 @@
+(base) students@students-Veriton-M200-H110:~$ sudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 15
+Server version: 8.0.42-0ubuntu0.20.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE DATABASE omkar;
+Query OK, 1 row affected (0.12 sec)
+
+mysql> USE omkar;
+Database changed
+mysql> ^C^C
+
+^C
+mysql> CREATE TABLE department(
+    -> did VARCHAR(20),
+    -> name VARCHAR(20) NOT NULL,
+    -> CONSTRAINT PK_DEPT PRIMARY KEY(did)
+    -> );
+Query OK, 0 rows affected (1.51 sec)
+
+mysql> COMMIT 
+    -> "Database and Table Created"
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"Database and Table Created"' at line 2
+mysql> COMMIT "Database and Table Created";
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"Database and Table Created"' at line 1
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql>   
+
+^C
+mysql> 
+mysql> 
+mysql> INSERT INTO department({10, Computer Engineering})
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10, Computer Engineering})' at line 1
+mysql> INSERT INTO department({10, "Computer Engineering"});
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{10, "Computer Engineering"})' at line 1
+mysql> INSERT INTO department VALUES 
+    -> (d1, 'Management')
+    -> ;
+ERROR 1054 (42S22): Unknown column 'd1' in 'field list'
+mysql> INSERT INTO department VALUES
+    -> ('d1', 'Management')
+    -> ('d2', 'Comps')
+    -> ('d3', 'IT')
+    -> ('d4', 'HR');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('d2', 'Comps')
+('d3', 'IT')
+('d4', 'HR')' at line 3
+mysql> INSERT INTO department VALUES ('d1', 'Management'),('d2', 'Comps'),('d3', 'IT'),('d4', 'HR');
+Query OK, 4 rows affected (0.09 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+mysql> CREATE TABLE employee(
+CREATE TABLE employee(
+^C
+mysql> CREATE TABLE employee(
+    -> eid int,
+    -> name varchar(20) UNIQUE,
+    -> join_date date NOT NULL,
+    -> department char,
+    -> department char(2),
+    -> CHECK(dep IN('D1','D2','D3')),
+    -> salary int,
+    -> manager int,
+    -> CONSTRAINT PK_ID PRIMARY KEY(eid),
+    -> CONSTRAINT FK_DID FOREIGN KEY(department),
+    -> REFERENCES department(did)
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+REFERENCES department(did)
+)' at line 11
+mysql> CREATE TABLE employee( eid int, name varchar(20) UNIQUE, join_date date NOT NULL, department char(2), CHECK(dep IN('D1','D2','D3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(department), REFERENCES department(did) );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', REFERENCES department(did) )' at line 1
+mysql> CREATE TABLE employee( eid int, name varchar(20) UNIQUE, join_date date NOT NULL, department char(2), CHECK(dep IN('D1','D2','D3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(department), REFERENCES department(did) );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', REFERENCES department(did) )' at line 1
+mysql> CREATE TABLE employee( eid int, name varchar(20) UNIQUE, join_date date NOT NULL, department char(2), CHECK(dep IN('D1','D2','D3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(department), REFERENCES department(did));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', REFERENCES department(did))' at line 1
+mysql> clear
+mysql> CREATE TABLE employee(
+    -> eid int,
+    -> name VARCHAR(20) UNIQUE,\
+    -> ^C^C^C^C^C^C
+
+^C
+mysql> CREATE TABLE employee(
+    -> eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL, department char(2), CHECK(dep IN('D1','D2','D3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(department) REFERENCES department(did));
+ERROR 3820 (HY000): Check constraint 'employee_chk_1' refers to non-existing column 'dep'.
+mysql> SELECT * from department
+    -> ;
++-----+------------+
+| did | name       |
++-----+------------+
+| d1  | Management |
+| d2  | Comps      |
+| d3  | IT         |
+| d4  | HR         |
++-----+------------+
+4 rows in set (0.00 sec)
+
+mysql> CREATE TABLE employee( eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL, department char(2), CHECK(dep IN('d1','d2','d3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(department) REFERENCES department(did));
+ERROR 3820 (HY000): Check constraint 'employee_chk_1' refers to non-existing column 'dep'.
+mysql> CREATE TABLE employee( eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL, department char(2) CHECK(dep IN('d1','d2','d3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(department) REFERENCES department(did));
+ERROR 3813 (HY000): Column check constraint 'employee_chk_1' references other column.
+mysql> CREATE TABLE employee( eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL, department char(2) CHECK(dep IN('D1','D2','D3')), salary int,
+ manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(department) REFERENCES department(did));
+ERROR 3813 (HY000): Column check constraint 'employee_chk_1' references other column.
+mysql> SELECT * from employee;
+ERROR 1146 (42S02): Table 'omkar.employee' doesn't exist
+mysql> CREATE TABLE employee( eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL, department char(2) CHECK(dep IN('D1','D2','D3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(dep) REFERENCES department(did));
+ERROR 3813 (HY000): Column check constraint 'employee_chk_1' references other column.
+mysql> CREATE TABLE employee( eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL,dep char(2) CHECK(dep IN('D1','D2','D3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(department) REFERENCES department(did));
+ERROR 1072 (42000): Key column 'department' doesn't exist in table
+mysql> CREATE TABLE employee( eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL,dep char(2) CHECK(dep IN('D1','D2','D3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(dep) REFERENCES department(did));
+Query OK, 0 rows affected (1.45 sec)
+
+mysql> SELECT * from employee;
+Empty set (0.00 sec)
+
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> INSERT INTO employee VALUES (101, 'Omkar', 2026-07-29, 'D1', 50000, 101);
+ERROR 1292 (22007): Incorrect date value: '1990' for column 'join_date' at row 1
+mysql> INSERT INTO employee VALUES (101, 'Omkar', 29-07-2026, 'D1', 50000, 101);
+ERROR 1292 (22007): Incorrect date value: '-2004' for column 'join_date' at row 1
+mysql> CREATE TABLE employee( eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL,dep char(2) CHECK(dep IN('d1','d2','d3')), salary int, manager
+ int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(dep) REFERENCES department(did));
+ERROR 1050 (42S01): Table 'employee' already exists
+mysql> DELETE TABLE employee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TABLE employee' at line 1
+mysql> DROP TABLE employee;
+Query OK, 0 rows affected (0.40 sec)
+
+mysql> CREATE TABLE employee( eid int, name VARCHAR(20) UNIQUE, join_date date NOT NULL,dep char(2) CHECK(dep IN('d1','d2','d3')), salary int, manager int, CONSTRAINT PK_ID PRIMARY KEY(eid), CONSTRAINT FK_DID FOREIGN KEY(dep) REFERENCES department(did));
+Query OK, 0 rows affected (0.94 sec)
+
+mysql> SELECT * from employee;
+Empty set (0.00 sec)
+
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> ALTER TABLE employee 
+    -> RENAME COLUMN dep to dept; 
+ERROR 3959 (HY000): Check constraint 'employee_chk_1' uses column 'dep', hence column cannot be dropped or renamed.
+mysql> 
+mysql> 
+mysql> INSERT INTO employee VALUES (101, 'Omkar', 2026-07-29, 'D1', 50000, 101);
+ERROR 1292 (22007): Incorrect date value: '1990' for column 'join_date' at row 1
+mysql> ALTER TABLE employee 
+    -> ALTER COLUMN dep TYPE VARCHAR(2);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE VARCHAR(2)' at line 2
+mysql> ALTER TABLE employee
+    -> RENAME COLUMN salary TO esalary
+    -> ;
+Query OK, 0 rows affected (0.42 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> ALTER TABLE employee
+    -> ALTER COLUMN esalary TYPE LONG;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE LONG' at line 2
+mysql> ALTER TABLE employee ALTER COLUMN esalary TYPE long;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE long' at line 1
+mysql> ALTER TABLE employee ALTER COLUMN esalary TYPE BIGINT;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE BIGINT' at line 1
+mysql> ALTER TABLE employee ALTER COLUMN esalary TYPE bigint;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE bigint' at line 1
+mysql> ALTER TABLE employee
+    -> ALTER COLUMN manager TYPE BIGINT;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE BIGINT' at line 2
+mysql> ALTER TABLE employee
+ALTER TABLE employee
+^C
+mysql> ALTER TABLE employee DROP COLUMN manager;
+Query OK, 0 rows affected (2.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> 
+mysql> SELECT * from department;
++-----+------------+
+| did | name       |
++-----+------------+
+| d1  | Management |
+| d2  | Comps      |
+| d3  | IT         |
+| d4  | HR         |
++-----+------------+
+4 rows in set (0.00 sec)
+
+mysql> DROP FROM department WHERE name == 'HR';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM department WHERE name == 'HR'' at line 1
+mysql> DROP FROM department WHERE name = 'HR';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM department WHERE name = 'HR'' at line 1
+mysql> DROP FROM department WHERE did = 'd3';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM department WHERE did = 'd3'' at line 1
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> DELETE FROM department WHERE did = 'd3';
+Query OK, 1 row affected (0.09 sec)
+
+mysql> SELECT * from department;
++-----+------------+
+| did | name       |
++-----+------------+
+| d1  | Management |
+| d2  | Comps      |
+| d4  | HR         |
++-----+------------+
+3 rows in set (0.00 sec)
+
+mysql> ALTER TABLE department DROP COLUMN name;
+Query OK, 0 rows affected (0.47 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * from department;
++-----+
+| did |
++-----+
+| d1  |
+| d2  |
+| d4  |
++-----+
+3 rows in set (0.00 sec)
+
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> ALTER TABLE department ADD COLUMN hod VARCHAR(40);]
+Query OK, 0 rows affected (0.37 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+    -> ^C^C^C
+
+^C
+mysql> 
+mysql> SELECT * from department;
++-----+------+
+| did | hod  |
++-----+------+
+| d1  | NULL |
+| d2  | NULL |
+| d4  | NULL |
++-----+------+
+3 rows in set (0.00 sec)
+
+mysql> UPDATE department SET hod = 'Keval' WHERE did = 'd1';
+UPDATE department SET hod = 'Keval' WHERE did = 'd1';
+^C
+mysql> UPDATE department SET hod = 'Keval' WHERE did = 'd1';
+Query OK, 1 row affected (0.08 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * from department;
++-----+-------+
+| did | hod   |
++-----+-------+
+| d1  | Keval |
+| d2  | NULL  |
+| d4  | NULL  |
++-----+-------+
+3 rows in set (0.01 sec)
+
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> UPDATE department SET hod = 'Omkar' WHERE did = 'd2';
+Query OK, 1 row affected (0.09 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> UPDATE department SET hod = 'Ibrahim' WHERE did = 'd4';
+Query OK, 1 row affected (0.09 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * from departmentl
+    -> ^C^C^C^C^C
+
+^C
+mysql> 
+mysql> SELECT * from department;
++-----+---------+
+| did | hod     |
++-----+---------+
+| d1  | Keval   |
+| d2  | Omkar   |
+| d4  | Ibrahim |
++-----+---------+
+3 rows in set (0.01 sec)
+
+mysql> INSERT INTO employee VALUES (101, 'Omkar', '2026-07-29', 'D1', 50000, 101);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> SELEC * from employee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELEC * from employee' at line 1
+mysql> SELECT * from employee;
+Empty set (0.00 sec)
+
+mysql> INSERT INTO employee VALUES (101, 'Omkar', '2026-07-14', 'd1', 40000);
+Query OK, 1 row affected (0.12 sec)
+
+mysql> INSERT INTO employee VALUES (102, 'Keval', '2026-9-24', 'd2', 4);
+Query OK, 1 row affected (0.08 sec)
+
+mysql> SELECT * from employee;
++-----+-------+------------+------+---------+
+| eid | name  | join_date  | dep  | esalary |
++-----+-------+------------+------+---------+
+| 101 | Omkar | 2026-07-14 | d1   |   40000 |
+| 102 | Keval | 2026-09-24 | d2   |       4 |
++-----+-------+------------+------+---------+
+2 rows in set (0.01 sec)
+
+mysql> UPDATE employee SET esalary TO 75000 WHERE name = 'Keval';
+\ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TO 75000 WHERE name = 'Keval'' at line 1
+mysql> UPDATE employee SET esalary TO 75000 WHERE name = 'Keval';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TO 75000 WHERE name = 'Keval'' at line 1
+mysql> UPDATE employee SET esalary = 75000 WHERE name = 'Keval';
+Query OK, 1 row affected (0.08 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * from employee; 
+SELECT * from employee;
+^C
+mysql> SELECT * from employee;
++-----+-------+------------+------+---------+
+| eid | name  | join_date  | dep  | esalary |
++-----+-------+------------+------+---------+
+| 101 | Omkar | 2026-07-14 | d1   |   40000 |
+| 102 | Keval | 2026-09-24 | d2   |   75000 |
++-----+-------+------------+------+---------+
+2 rows in set (0.00 sec)
+
+mysql> CREATE TABLE backup_department AS SELECT * FROM department;
+CREATE TABLE backup_department AS SELECT * FROM department;
+^C
+mysql> CREATE TABLE backup_department AS SELECT * FROM department;
+Query OK, 3 rows affected (1.13 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * from backup_department;
++-----+---------+
+| did | hod     |
++-----+---------+
+| d1  | Keval   |
+| d2  | Omkar   |
+| d4  | Ibrahim |
++-----+---------+
+3 rows in set (0.00 sec)
+
+mysql> ALTER TABLE employee ADD COLUMN desk_no INT;
+Query OK, 0 rows affected (0.39 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * from employee
+    -> ;
++-----+-------+------------+------+---------+---------+
+| eid | name  | join_date  | dep  | esalary | desk_no |
++-----+-------+------------+------+---------+---------+
+| 101 | Omkar | 2026-07-14 | d1   |   40000 |    NULL |
+| 102 | Keval | 2026-09-24 | d2   |   75000 |    NULL |
++-----+-------+------------+------+---------+---------+
+2 rows in set (0.00 sec)
+
+mysql> ALTER TABLE employee SET desk_no = 102 WHERE name = 'Omkar';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET desk_no = 102 WHERE name = 'Omkar'' at line 1
+mysql> UPDATE TABLE employee SET desk_no = 102 WHERE name = 'Omkar';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TABLE employee SET desk_no = 102 WHERE name = 'Omkar'' at line 1
+mysql> UPDATE employee SET desk_no = 102 WHERE name = 'Omkar';
+Query OK, 1 row affected (0.08 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * from employee;
++-----+-------+------------+------+---------+---------+
+| eid | name  | join_date  | dep  | esalary | desk_no |
++-----+-------+------------+------+---------+---------+
+| 101 | Omkar | 2026-07-14 | d1   |   40000 |     102 |
+| 102 | Keval | 2026-09-24 | d2   |   75000 |    NULL |
++-----+-------+------------+------+---------+---------+
+2 rows in set (0.00 sec)
+
+mysql> 
+^C
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> DELETE FROM employee where name = 'Keval';
+Query OK, 1 row affected (0.12 sec)
+
+mysql> SELECT * from employee;
++-----+-------+------------+------+---------+---------+
+| eid | name  | join_date  | dep  | esalary | desk_no |
++-----+-------+------------+------+---------+---------+
+| 101 | Omkar | 2026-07-14 | d1   |   40000 |     102 |
++-----+-------+------------+------+---------+---------+
+1 row in set (0.00 sec)
+
+mysql> DELETE TABLE department_backup;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TABLE department_backup' at line 1
+mysql> DROP TABLE backup_department;
+Query OK, 0 rows affected (0.38 sec)
+
+mysql> 
+
+
