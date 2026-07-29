@@ -8,35 +8,13 @@ Personal academic archive for Omkar Gajare (UID: 2025300063) at SPIT, CE 2023-27
 
 ```
 college/
-├── FY (2025-26)/          ← Academic year folder (format: "YY (YYYY-YY)")
-│   ├── PSIPL/             ← Subject folders at top level for FY (only 4 subjects)
+├── FY (2025-26)/          ← Academic year folder
+│   ├── PSIPL/             ← Subject folders at top level
 │   ├── PSOOP/
 │   ├── EG/
 │   └── TS/
-├── SY (2026-27)/          ← From SY onwards, split by semester (8+ subjects/year)
-│   ├── Sem III/
-│   │   ├── DS/            ← CE202 Data Structures
-│   │   ├── COA/           ← CE203 Computer Organization and Architecture
-│   │   ├── DBMS/          ← CE204 Database Management Systems
-│   │   └── DSGT/          ← CE201 Discrete Structures and Graph Theory
-│   └── Sem IV/
-│       ├── OS/            ← CE206 Operating Systems
-│       ├── DAA/           ← CE207 Design and Analysis of Algorithms
-│       └── CCN/           ← CE208 Computer Communications and Networks
-├── TY (2027-28)/
-│   ├── Sem V/
-│   │   ├── DC/            ← CE301 Distributed Computing
-│   │   ├── SE/            ← CE302 Software Engineering
-│   │   ├── AI/            ← CE303 Artificial Intelligence and Soft Computing
-│   │   ├── TC/            ← CE304 Theory of Computation
-│   │   └── CNS/           ← CE305 Cryptography and Network Security
-│   └── Sem VI/
-│       ├── SPCC/          ← CE306 System Programming and Compiler Construction
-│       ├── ML/            ← CE307 Machine Learning
-│       └── DevOps/        ← CE308 DevOps Lab
-├── BE (2028-29)/
-│   ├── Sem VII/
-│   └── Sem VIII/
+├── SY (2026-27)/          ← Subject folders directly under year
+│   └── DS/                ← Only subject with content so far
 ├── _template/             ← Copy README.md from here when starting a new subject
 ├── ce-syll-2023-27.pdf    ← Full SPIT CE curriculum (2023-27 batch)
 ├── CLAUDE.md              ← This file
@@ -78,11 +56,11 @@ Full syllabus: `ce-syll-2023-27.pdf`
 
 ## Adding a New Subject
 
-1. Create the subject folder under the correct year/semester path (see structure above).
+1. Create the subject folder under the correct year path (e.g. `SY (2026-27)/DSGT/`).
 2. Copy `_template/README.md` into it and fill in the course details.
-3. Add a row to the year-level `README.md` table.
+3. Add a row to the year-level `README.md` table (create one if needed).
 4. Add a link in the root `README.md` under the correct year heading.
-5. Commit: `git add <subject-folder> && git commit -m "add <SUBJ> <SEM> skeleton"`
+5. Commit: `git add <subject-folder> && git commit -m "add <SUBJ> skeleton"`
 
 ---
 
@@ -90,10 +68,12 @@ Full syllabus: `ce-syll-2023-27.pdf`
 
 ### What is NOT committed (covered by .gitignore)
 - `.DS_Store` — macOS metadata
+- `.vscode/`, `.idea/` — IDE config
+- `*.cbp`, `*.layout` — CodeBlocks project files
+- `package.bluej` — BlueJ project metadata
+- `.github/copilot-instructions.md` — AI assistant config (per-folder)
 - `.ctxt` — BlueJ editor state
 - `*.o`, `*.exe`, `*.class` — compiled output
-- `*.depend` — CodeBlocks dependency files
-- `*.swp` — Vim swap files
 - `obj/`, `bin/` — build output directories
 
 ### Binary files (Git LFS)

@@ -9,11 +9,16 @@ ehthumbs.db
 Desktop.ini
 
 # Editor/IDE
-.vscode
+.vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
 *.iml
+*.cbp
+*.layout
+*.depend
+package.bluej
+.github/copilot-instructions.md
 
 # Python
 __pycache__/
@@ -51,7 +56,6 @@ build/
 *.dll
 *.so
 *.out
-*.depend
 obj/
 bin/
 

@@ -41,7 +41,7 @@ After completing this course you will be able to:
 |  3  |   Week 3   | [Folder](./Week%203/Turn%201/) | [Folder](./Week%203/Turn%202/) |
 |  4  |   Week 4   | [Folder](./Week%204/Turn%201/) | [Folder](./Week%204/Turn%202/) |
 |  5  |   Week 5   | [Folder](./Week%205/Turn%201/) | [Folder](./Week%205/Turn%202/) |
-|  6  |   Week 6   | [Folder](./Week%206/) | [Folder](./Week%206/Turn%202/) |
+|  6  |   Week 6   | [Folder](./Week%206/Turn%201/) | [Folder](./Week%206/Turn%202/) |
 |  7  |   Week 7   | [Folder](./Week%207/Turn%201/) | [Folder](./Week%207/Turn%202/) |
 |  8  |   Week 8   | [Folder](./Week%208/Turn%201/) | [Folder](./Week%208/Turn%202/) |
 |  9  |   Week 9   | [Folder](./Week%209/Turn%201/) | [Folder](./Week%209/Turn%202/) |

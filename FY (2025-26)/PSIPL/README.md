@@ -38,16 +38,16 @@ After completing this course you will be able to:
 
 | Sr  | Assignment                               |                                Turn 1                                |                               Turn 2                                |
 | :-: | :--------------------------------------- | :------------------------------------------------------------------: | :-----------------------------------------------------------------: |
-|  1  | [Assignment 1](./Assignment%201/)   | [PDF](./Assignment%201/2025300063_OmkarG_Assignment1_Turn1.pdf) | [PDF](./Assignment%201/2025300063-Assignment1-Turn2-Term1.pdf) |
-|  2  | [Assignment 2](./Assignment%202/)   | [PDF](./Assignment%202/2025300063%20-%20Assignment2-Turn1.pdf)  | [PDF](./Assignment%202/2025300063%20-%20Assignment2-Turn2.pdf) |
+|  1  | [Assignment 1](./Assignment%201/)   | [PDF](./Assignment%201/2025300063_OmkarG_Assignment1_Turn1.pdf) | [PDF](./Assignment%201/2025300063_OmkarG_Assignment1_Turn2.pdf) |
+|  2  | [Assignment 2](./Assignment%202/)   | [PDF](./Assignment%202/2025300063_OmkarG_Assignment2_Turn1.pdf) | [PDF](./Assignment%202/2025300063_OmkarG_Assignment2_Turn2.pdf) |
 |  3  | [Assignment 3](./Assignment%203/)   |              [Folder](./Assignment%203/Turn%201/)               |              [Folder](./Assignment%203/Turn%202/)              |
-|  4  | [Assignment 4](./Assignment%204/)   |              [Folder](./Assignment%204/Turn%201/)               |              [Folder](./Assignment%204/Turn%202/)              |
-|  5  | [Assignment 5](./Assignment%205/)   |              [Folder](./Assignment%205/Turn%201/)               |              [Folder](./Assignment%205/Turn%202/)              |
-|  6  | [Assignment 6](./Assignment%206/)   |              [Folder](./Assignment%206/Turn%201/)               |              [Folder](./Assignment%206/Turn%202/)              |
-|  7  | [Assignment 7](./Assignment%207/)   |              [Folder](./Assignment%207/Turn%201/)               |              [Folder](./Assignment%207/Turn%202/)              |
-|  8  | [Assignment 8](./Assignment%208/)   |              [Folder](./Assignment%208/Turn%201/)               |              [Folder](./Assignment%208/Turn%202/)              |
-|  9  | [Assignment 9](./Assignment%209/)   |              [Folder](./Assignment%209/Turn%201/)               |              [Folder](./Assignment%209/Turn%202/)              |
-| 10  | [Assignment 10](./Assignment%2010/) |              [Folder](./Assignment%2010/Turn%201/)              |             [Folder](./Assignment%2010/Turn%202/)              |
+|  4  | [Assignment 4](./Assignment%204/)   |              [Folder](./Assignment%204/Turn%201/)               | [PDF](./Assignment%204/Turn%202/2025300063_OmkarG_Assignment4_Turn2.pdf) |
+|  5  | [Assignment 5](./Assignment%205/)   | [PDF](./Assignment%205/Turn%201/2025300063_OmkarG_Assignment5_Turn1.pdf) |              [Folder](./Assignment%205/Turn%202/)              |
+|  6  | [Assignment 6](./Assignment%206/)   | [PDF](./Assignment%206/Turn%201/2025300063_OmkarG_Assignment6_Turn1.pdf) | [PDF](./Assignment%206/Turn%202/2025300063_OmkarG_Assignment6_Turn2.pdf) |
+|  7  | [Assignment 7](./Assignment%207/)   |              [Folder](./Assignment%207/Turn%201/)               | [PDF](./Assignment%207/Turn%202/2025300063_OmkarG_Assignment7_Turn2.pdf) |
+|  8  | [Assignment 8](./Assignment%208/)   | [PDF](./Assignment%208/Turn%201/2025300063_OmkarG_Assignment8_Turn1.pdf) | [PDF](./Assignment%208/Turn%202/2025300063_OmkarG_Assignment8_Turn2.pdf) |
+|  9  | [Assignment 9](./Assignment%209/)   | [PDF](./Assignment%209/Turn%201/2025300063_OmkarG_Assignment9_Turn1.pdf) | [PDF](./Assignment%209/Turn%202/2025300063_OmkarG_Assignment9_Turn2.pdf) |
+| 10  | [Assignment 10](./Assignment%2010/) | [PDF](./Assignment%2010/Turn%201/2025300063_OmkarG_Assignment10_Turn1.pdf) |             [Folder](./Assignment%2010/Turn%202/)              |
 
 ---
 

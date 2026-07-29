@@ -1,6 +1,6 @@
 # Assignments & Submissions — Sardar Patel Institute of Technology
 
-**Author:** Omkar Anil Gajare • **UID:** 2025300063
+**Author:** Omkar Anil Gajare · **UID:** 2025300063
 
 > [!IMPORTANT]
 > This repository is a personal archive of assignments and course materials. Do not copy or submit any content from here for academic use without my explicit permission.
@@ -14,7 +14,8 @@
   - [PSOOP — Problem Solving using Object Oriented Programming](/FY%20(2025-26)/PSOOP)
   - [EG — Engineering Graphics](/FY%20(2025-26)/EG)
   - [TS — Tech Shop](/FY%20(2025-26)/TS)
-- [SY (2026-27)](/SY%20(2026-27)/) — Sem III & IV _(skeleton ready)_
+- [SY (2026-27)](/SY%20(2026-27)/) — Sem III & IV
+  - [DS — Data Structures](/SY%20(2026-27)/DS)
 - TY (2027-28) — _coming Sem V_
 - BE (2028-29) — _coming Sem VII_
 
@@ -24,7 +25,7 @@ Full curriculum: [`ce-syll-2023-27.pdf`](./ce-syll-2023-27.pdf)
 
 ## About this archive
 
-This repo holds my assignments, submissions and supporting code from the academic year(s) shown. It's organized by year → semester → subject → assignment/turn. Each subject folder contains a README, assignment PDFs, source code, and any supplementary files.
+This repo holds my assignments, submissions and supporting code from the academic year(s) shown. It's organized by year → subject → assignment/turn. Each subject folder contains a README, assignment PDFs, source code, and any supplementary files.
 
 ## Notes
 
@@ -36,5 +37,5 @@ This repo holds my assignments, submissions and supporting code from the academi
 
 <p align="center">
   <sub>
-  <a href="https://github.com/ohhmkar">Omkar Gajare</a> · UID: 2025300063 · Last updated: 08-06-2026</sub>
+  <a href="https://github.com/ohhmkar">Omkar Gajare</a> · UID: 2025300063 · Last updated: 27-07-2026</sub>
 </p>
